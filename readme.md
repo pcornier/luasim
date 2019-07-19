@@ -168,8 +168,9 @@ In your main lua file:
 sim = require 'sim'
 
 -- include your modules
-cpu = require 'cpu'
-ram = require 'ram'
+-- /!\ modules must be declared in global scope to allow signal injection :(
+require 'cpu'
+require 'ram'
 
 -- wire everything
 sim.comb({ 'cpu_addr', 'ram_dout' }, function()
