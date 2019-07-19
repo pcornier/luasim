@@ -24,8 +24,8 @@ sim.trace = true
 
 -- create clocks
 sim.create_clock('clk1', 2)
-sim.create_clock('clk2', 3)
-sim.create_clock('clk3', 4)
+sim.create_clock('clk2', 4)
+sim.create_clock('clk3', 8)
 
 sim.start()
 
