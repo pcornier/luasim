@@ -34,7 +34,7 @@ for i=0,100 do
 end
 ```
 
-![clocks](./screen1.png)
+![clocks](./screen1.png#1)
 
 Sync RAM
 --------
